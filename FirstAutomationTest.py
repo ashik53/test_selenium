@@ -1,7 +1,10 @@
 from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
 
-from webdriver_manager.chrome import ChromeDriverManager
-driver = webdriver.Chrome(ChromeDriverManager().install())
+ser = Service("C:\\BrowserDriver\\chromedriver.exe")
+op = webdriver.ChromeOptions()
+driver = webdriver.Chrome(service=ser, options=op)
+
 
 driver.get("https://rcvacademy.com")
 driver.maximize_window
@@ -11,3 +14,7 @@ if driver.title == "Home El - RCV Academy":
 else:
     assert False
 driver.close()
+
+
+
+
