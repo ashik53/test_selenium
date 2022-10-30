@@ -1,0 +1,24 @@
+1664268794694	geckodriver	INFO	Listening on 127.0.0.1:55309
+1664268797823	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55310" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\laptop\\AppData\\Local\\Temp\\rust_mozprofile9khc2m"
+1664268798279	Marionette	INFO	Marionette enabled
+1664268798287	Marionette	INFO	Listening on port 55319
+WebDriver BiDi listening on ws://127.0.0.1:55310
+Read port: 55319
+1664268798464	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\laptop\\AppData\\Local\\Temp\\rust_mozprofile9khc2m\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55310/devtools/browser/e21545a4-89d1-468d-ba7c-842c0e207e54
+1664268826837	Marionette	INFO	Stopped listening on port 55319
+JavaScript error: , line 0: uncaught exception: undefined
+1664268883947	geckodriver	INFO	Listening on 127.0.0.1:55458
+1664268887045	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55459" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\laptop\\AppData\\Local\\Temp\\rust_mozprofilevTLHyc"
+1664268887509	Marionette	INFO	Marionette enabled
+1664268887517	Marionette	INFO	Listening on port 55468
+Read port: 55468
+WebDriver BiDi listening on ws://127.0.0.1:55459
+1664268887692	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\laptop\\AppData\\Local\\Temp\\rust_mozprofilevTLHyc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55459/devtools/browser/984403f3-a8ac-4e8a-8c91-8da840eca75f
+JavaScript error: , line 0: NetworkError: A network error occurred.
+JavaScript error: , line 0: NetworkError: A network error occurred.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/lNPcL4AZZQ8z9NJpy71wtXJu_aTy2V1-RO76Pd5QcdQ.js line 2 > eval line 6451 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1664271430635	Marionette	INFO	Stopped listening on port 55468
