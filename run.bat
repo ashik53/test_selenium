@@ -1,1 +1,1 @@
-pytest -v -s FirstAutomationTest.py
+pytest -v -s test_HelloTest.py
