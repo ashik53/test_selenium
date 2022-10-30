@@ -6,7 +6,7 @@ driver = webdriver.Chrome(ChromeDriverManager().install())
 driver.get("https://rcvacademy.com")
 driver.maximize_window
 print(driver.title)
-if driver.title == "Home El - RCV Academy2":
+if driver.title == "Home El - RCV Academy":
     assert True
 else:
     assert False
